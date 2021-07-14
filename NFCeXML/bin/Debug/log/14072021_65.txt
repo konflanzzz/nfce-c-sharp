@@ -1,0 +1,2662 @@
+14/07/2021 15:46 - [ATIVANDO_CONTINGENCIA_NFCE]
+14/07/2021 15:46 - [REALIZANDO_AJUSTES_CONTINGENCIA]
+14/07/2021 15:46 - [ALTERANDO_tpEmis]
+14/07/2021 15:46 - [tpEmis ALTERADO PARA Item9]
+14/07/2021 15:46 - [INSERINDO_dhCont]
+14/07/2021 15:46 - [dhCont: 2021-07-14T15:46:32-03:00]
+14/07/2021 15:46 - [INSERINDO_xJust]
+14/07/2021 15:46 - [xJust: CONTINGENCIA DEVIDO FALHA NA COMUNICACAO COM SEFAZ]
+14/07/2021 15:46 - [AJUSTES_CONTINGENCIA_FINALIZADOS]
+14/07/2021 15:46 - [GRAVANDO_ARQUIVO_XML_CONTINGENCIA]
+14/07/2021 15:46 - [XML CONTINGENCIA SALVO EM: .\Contingencia\ PARA ENVIO POSTERIOR
+14/07/2021 15:55 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 15:55 - [ENVIO_DADOS]
+14/07/2021 15:55 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe>
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21071</nNF>
+      <dhEmi>2021-07-14T15:54:58-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>42334216085</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL </xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 15:55 - [ENVIO_RESPOSTA]
+14/07/2021 15:55 - Token de acesso invalido.
+14/07/2021 15:57 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 15:57 - [ENVIO_DADOS]
+14/07/2021 15:57 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe>
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T15:57:26-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>42334216085</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL </xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 15:57 - [ENVIO_RESPOSTA]
+14/07/2021 15:57 - {"status":-999,"motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2"}
+14/07/2021 15:57 - [JSON_RETORNO]
+14/07/2021 15:57 - {"chNFe":"","statusEnvio":"-999","statusConsulta":null,"statusDownload":"","cStat":"","nProt":"","motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2","nsNRec":null,"erros":null}
+14/07/2021 15:57 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 16:02 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 16:02 - [ENVIO_DADOS]
+14/07/2021 16:02 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe>
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21050</nNF>
+      <dhEmi>2021-07-14T16:02:36-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>42334216085</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL </xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 16:02 - [ENVIO_RESPOSTA]
+14/07/2021 16:02 - {"status":-999,"motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2"}
+14/07/2021 16:02 - [JSON_RETORNO]
+14/07/2021 16:02 - {"chNFe":"","statusEnvio":"-999","statusConsulta":null,"statusDownload":"","cStat":"","nProt":"","motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2","nsNRec":null,"erros":null}
+14/07/2021 16:02 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 16:03 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 16:03 - [ENVIO_DADOS]
+14/07/2021 16:03 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe>
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T16:03:14-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>42334216085</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL </xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 16:03 - [ENVIO_RESPOSTA]
+14/07/2021 16:03 - {"status":-999,"motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2"}
+14/07/2021 16:03 - [JSON_RETORNO]
+14/07/2021 16:03 - {"chNFe":"","statusEnvio":"-999","statusConsulta":null,"statusDownload":"","cStat":"","nProt":"","motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2","nsNRec":null,"erros":null}
+14/07/2021 16:03 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 16:06 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 16:06 - [ENVIO_DADOS]
+14/07/2021 16:06 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe>
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T16:06:44-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>42334216085</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL </xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 16:06 - [ENVIO_RESPOSTA]
+14/07/2021 16:06 - {"status":-999,"motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2"}
+14/07/2021 16:06 - [JSON_RETORNO]
+14/07/2021 16:06 - {"chNFe":"","statusEnvio":"-999","statusConsulta":null,"statusDownload":"","cStat":"","nProt":"","motivo":"java.lang.Exception: URLs de Webservices da Sefaz nao encontradas para o estado 43 e ambiente 2","nsNRec":null,"erros":null}
+14/07/2021 16:06 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:33 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:33 - [ENVIO_DADOS]
+14/07/2021 17:33 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T17:33:44-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>42334216085</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL </xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:33 - [ENVIO_RESPOSTA]
+14/07/2021 17:33 - {"status":-995,"motivo":"Documento invalido de acordo com a validacao contra o XSD","erros":["O campo 'CNPJ' foi preenchido incorretamente com o valor '42334216085'. Este campo deve ser preenchido com um CNPJ de 14 digitos. Este campo e obrigatorio.","O campo 'xProd' foi preenchido incorretamente com o valor 'NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL '. Este campo deve ser preenchido com letras ou numeros e conter no minimo 1 e no maximo 120 caracteres."]}
+14/07/2021 17:33 - [JSON_RETORNO]
+14/07/2021 17:33 - {"chNFe":"","statusEnvio":"-995","statusConsulta":null,"statusDownload":"","cStat":"","nProt":"","motivo":"Documento invalido de acordo com a validacao contra o XSD","nsNRec":null,"erros":["O campo 'CNPJ' foi preenchido incorretamente com o valor '42334216085'. Este campo deve ser preenchido com um CNPJ de 14 digitos. Este campo e obrigatorio.","O campo 'xProd' foi preenchido incorretamente com o valor 'NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL '. Este campo deve ser preenchido com letras ou numeros e conter no minimo 1 e no maximo 120 caracteres."]}
+14/07/2021 17:33 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:36 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:36 - [ENVIO_DADOS]
+14/07/2021 17:36 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T17:35:57-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>42334216085</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:36 - [ENVIO_RESPOSTA]
+14/07/2021 17:36 - {"status":-100,"motivo":"NFC-e nao autorizada","nfeProc":{"cStat":237,"xMotivo":"Rejeicao: CPF do destinatario invalido"}}
+14/07/2021 17:36 - [JSON_RETORNO]
+14/07/2021 17:36 - {"chNFe":"","statusEnvio":"-100","statusConsulta":null,"statusDownload":"","cStat":"237","nProt":"","motivo":"Rejeicao: CPF do destinatario invalido","nsNRec":null,"erros":null}
+14/07/2021 17:36 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:37 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:37 - [ENVIO_DADOS]
+14/07/2021 17:37 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T17:37:25-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:39 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:39 - [ENVIO_DADOS]
+14/07/2021 17:39 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T17:39:06-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:51 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:51 - [ENVIO_DADOS]
+14/07/2021 17:51 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T17:50:58-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:51 - [ENVIO_RESPOSTA]
+14/07/2021 17:51 - {"status":100,"motivo":"NFC-e autorizada com sucesso","nfeProc":{"nProt":"143210000380984","digVal":"txqlXnXnT09L4zeKOrrCmYEN5zg=","cStat":100,"xMotivo":"Autorizado o uso da NF-e","chNFe":"43210707364617000135650000000210701726120549","serie":"0","numero":"21070","dhRecbto":"2021-07-14T17:51:02-03:00"},"xml":"<?xml version=\"1.0\" encoding=\"utf-8\"?><nfeProc versao=\"4.00\" xmlns=\"http://www.portalfiscal.inf.br/nfe\"><NFe><infNFe versao=\"4.00\" Id=\"NFe43210707364617000135650000000210701726120549\"><ide><cUF>43</cUF><cNF>72612054</cNF><natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp><mod>65</mod><serie>0</serie><nNF>21070</nNF><dhEmi>2021-07-14T17:50:58-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4305108</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>9</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>4.00|NS_API</verProc></ide><emit><CNPJ>07364617000135</CNPJ><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderEmit><xLgr>Rua Bento Osvaldo Trisch</xLgr><nro>777</nro><xCpl>CX POSTAL 91</xCpl><xBairro>Pendancino</xBairro><cMun>4303509</cMun><xMun>Caxias do Sul</xMun><UF>RS</UF><CEP>95046600</CEP><fone>005432200200</fone></enderEmit><IE>0170108708</IE><CRT>1</CRT></emit><dest><CPF>16313945093</CPF><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>Rua 1</xLgr><nro>0</nro><xBairro>Setor Sul</xBairro><cMun>5208707</cMun><xMun>Goi�nia</xMun><UF>GO</UF><CEP>74650000</CEP><cPais>1058</cPais><xPais>Brasil</xPais></enderDest><indIEDest>9</indIEDest></dest><det nItem=\"1\"><prod><cProd>123456789</cProd><cEAN>SEM GTIN</cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>22021000</NCM><CEST>0301100</CEST><CFOP>5101</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>3.00</vUnCom><vProd>3.00</vProd><cEANTrib>SEM GTIN</cEANTrib><uTrib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>3.00</vUnTrib><indTot>1</indTot><nItemPed>0</nItemPed></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>102</CSOSN></ICMSSN102></ICMS><PIS><PISAliq><CST>01</CST><vBC>3.00</vBC><pPIS>1.65</pPIS><vPIS>0.05</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>3.00</vBC><pCOFINS>7.00</pCOFINS><vCOFINS>0.21</vCOFINS></COFINSAliq></COFINS></imposto></det><total><ICMSTot><vBC>0</vBC><vICMS>0</vICMS><vICMSDeson>0.00</vICMSDeson><vFCP>0</vFCP><vBCST>0</vBCST><vST>0</vST><vFCPST>0</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>3.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.05</vPIS><vCOFINS>0.21</vCOFINS><vOutro>0.00</vOutro><vNF>3.00</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><detPag><tPag>01</tPag><vPag>5.00</vPag></detPag><vTroco>2.00</vTroco></pag><infAdic><infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl></infAdic></infNFe><infNFeSupl><qrCode>https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43210707364617000135650000000210701726120549|2|2|1|9acff3541c770594317145097600acd665ca50d9</qrCode><urlChave>www.sefaz.rs.gov.br/nfce/consulta</urlChave></infNFeSupl><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#NFe43210707364617000135650000000210701726120549\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>txqlXnXnT09L4zeKOrrCmYEN5zg=</DigestValue></Reference></SignedInfo><SignatureValue>YzVdLvsyO5LCbfO9Wh7t963Aqyu1V5BV/GCogfYBAYGqBMrIsSDaW85eybiD/nG3dSD0SNj1yCy8lfRtMMQgkOkU8/RlS3cvQVi21x2uC4PTBOooE/zhVgH6o7T4OGziIlPLzwZwl2UlJLJP0UyJyrG849pELPRqdeGg5xWGQfzySeeK7Syoxk/Eu4K8fr4deY4Ykq3k6o9mMn/GsyGJVL5O+a5czVPFeorWgbanF4Ucp3Ct727WE6MmQLPfoY6/X0+/53d0WC842rQ70e41t+qJvbteBsE3yahcENkm78vrPKG951VKMPJJfN0zmPhhCm6Syi3vc5BEDwYM0O+6SQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIHrjCCBZagAwIBAgIIRcnVdMiHQNcwDQYJKoZIhvcNAQELBQAwdjELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEaMBgGA1UEAxMRQUMgU0FGRVdFQiBSRkIgdjUwHhcNMjAwODE3MTQ1ODE0WhcNMjEwODE3MTQ1ODE0WjCB6zELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwxCzAJBgNVBAgTAlJTMRAwDgYDVQQHEwdDQU1BUVU/MTYwNAYDVQQLEy1TZWNyZXRhcmlhIGRhIFJlY2VpdGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxFjAUBgNVBAsTDVJGQiBlLUNOUEogQTExFzAVBgNVBAsTDjIwMDg1MTA1MDAwMTA2MRMwEQYDVQQLEwpwcmVzZW5jaWFsMSowKAYDVQQDEyFORVcgUyBTWVNURU1TIExUREE6MDczNjQ2MTcwMDAxMzUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCX1M9ceLVyyCjsWH1OOsTDrLcCmox2iOvWr8KYYzZ0MTAPEa9cFRI50KxD5rO5x+gYbSTotpIFDmmtc836OfRDCsDNSGEE/jSW0YF2OV+8pfUPnbeMuTn+xS+KTMFLGN7Wjd1NpTBn0Ob10c4WUYiFsvAeQGFgFsWbF4ZR1cw6ttgnvIozf7n7RIsV8FAy3/kOIQTZPZAS2QKFlmJMQ0Lcf+9Ejh6/6knQpVncfyjJGrdRklGhoXIUgw/BF5z5i7nJf5Iy2fi4hOia9yG0/D3UpGzp5lhL4q52KkrnfIKderHRGkJEiUbD1SguLy3RGcc1q5lYQOobR6wcOxSA8dGRAgMBAAGjggLIMIICxDAfBgNVHSMEGDAWgBQpXkvVRky7/hanY8EdxCby3djzBTAOBgNVHQ8BAf8EBAMCBeAwbQYDVR0gBGYwZDBiBgZgTAECATMwWDBWBggrBgEFBQcCARZKaHR0cDovL3JlcG9zaXRvcmlvLmFjc2FmZXdlYi5jb20uYnIvYWMtc2FmZXdlYnJmYi9hYy1zYWZld2ViLXJmYi1wYy1hMS5wZGYwga4GA1UdHwSBpjCBozBPoE2gS4ZJaHR0cDovL3JlcG9zaXRvcmlvLmFjc2FmZXdlYi5jb20uYnIvYWMtc2FmZXdlYnJmYi9sY3ItYWMtc2FmZXdlYnJmYnY1LmNybDBQoE6gTIZKaHR0cDovL3JlcG9zaXRvcmlvMi5hY3NhZmV3ZWIuY29tLmJyL2FjLXNhZmV3ZWJyZmIvbGNyLWFjLXNhZmV3ZWJyZmJ2NS5jcmwwgYsGCCsGAQUFBwEBBH8wfTBRBggrBgEFBQcwAoZFaHR0cDovL3JlcG9zaXRvcmlvLmFjc2FmZXdlYi5jb20uYnIvYWMtc2FmZXdlYnJmYi9hYy1zYWZld2VicmZidjUucDdiMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC5hY3NhZmV3ZWIuY29tLmJyMIG4BgNVHREEgbAwga2BGlRISUFHT0BOU1RFQ05PTE9HSUEuQ09NLkJSoCEGBWBMAQMCoBgTFlRISUFHTyBEQSBTSUxWQSBEVU1NRVKgGQYFYEwBAwOgEBMOMDczNjQ2MTcwMDAxMzWgOAYFYEwBAwSgLxMtMTEwNDE5ODMwMDI2OTkyNTA3NDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwoBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwCQYDVR0TBAIwADANBgkqhkiG9w0BAQsFAAOCAgEAYv2Ot1tAeaeXQIxKGRblp5sI3G3hW9tuGYm71E5y4YxNPHe9VwxCE1yfmQ2pwUIHU7iVDBEkcqbHSW7lKPb8Mn9qrY1v+WRA/SKWuZINX7k2orh+Vx6sDuae5N8s9PnT3hDfBoVDgCzJQC1zJSxFPGVjwBs5g/obhyYprTwoVXuIwJBNnli/GDRHfdzeHh+ddi4QKAnQ/dpKVOuOXg4dme1HgmwHJNCWVIqUVcab0vSDfEoQuPCn6aMZFzw0IFbakcxEyg3iFtkrc2xn59Yc+wh3NywNmJ91JzjmA5D0YTq+a2bmHnDQtms0zsRSVhCS1wSkVWKInqP/e8yfR5M193LW1qJO1OmRT9VPchiT9cUY0pB/xW2VeJTkhT86XDkVtzw3ehPiPWK75LwuX4sRyPyV45h2QwgNsXtdWCKdSZb+Pal9Bdj9fyKYE6qKf9BECJ6jDRsbi0u5ZevtfwAzHXxe0gUdeg4Zhx0UdsGjgaZTSqBhX+TGX4XgZNy9dKosDKJPmK3XP1GaoqlDj33g15ZRBCL7ghVbXl8Fyvi3wo5vLRbUOW/biagwxogiucLyznFubXdMrRQdCscxz+WVgbwUZmLA040ZyuX32DaP8ODoB2FMcMhNMlxJMg/btn87oySydJPvboWTRnsuV7l1Svpbe8AX4CT23vZt0O4ZIZs=</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao=\"4.00\"><infProt Id=\"ID143210000380984\"><tpAmb>2</tpAmb><verAplic>RSnfce202103291658</verAplic><chNFe>43210707364617000135650000000210701726120549</chNFe><dhRecbto>2021-07-14T17:51:02-03:00</dhRecbto><nProt>143210000380984</nProt><digVal>txqlXnXnT09L4zeKOrrCmYEN5zg=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>"}
+14/07/2021 17:51 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:51 - [ENVIO_DADOS]
+14/07/2021 17:51 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21070</nNF>
+      <dhEmi>2021-07-14T17:51:43-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:51 - [ENVIO_RESPOSTA]
+14/07/2021 17:51 - {"status":-100,"motivo":"NFC-e nao autorizada","nfeProc":{"cStat":539,"xMotivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210707364617000135650000000210701726120549]"}}
+14/07/2021 17:51 - [JSON_RETORNO]
+14/07/2021 17:51 - {"chNFe":"","statusEnvio":"-100","statusConsulta":null,"statusDownload":"","cStat":"539","nProt":"","motivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210707364617000135650000000210701726120549]","nsNRec":null,"erros":null}
+14/07/2021 17:51 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:53 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:53 - [ENVIO_DADOS]
+14/07/2021 17:53 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21071</nNF>
+      <dhEmi>2021-07-14T17:53:08-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:53 - [ENVIO_RESPOSTA]
+14/07/2021 17:53 - {"status":-100,"motivo":"NFC-e nao autorizada","nfeProc":{"cStat":539,"xMotivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210107364617000135650000000210711772699371]"}}
+14/07/2021 17:53 - [JSON_RETORNO]
+14/07/2021 17:53 - {"chNFe":"","statusEnvio":"-100","statusConsulta":null,"statusDownload":"","cStat":"539","nProt":"","motivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210107364617000135650000000210711772699371]","nsNRec":null,"erros":null}
+14/07/2021 17:53 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:53 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:53 - [ENVIO_DADOS]
+14/07/2021 17:53 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21072</nNF>
+      <dhEmi>2021-07-14T17:53:32-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:53 - [ENVIO_RESPOSTA]
+14/07/2021 17:53 - {"status":-100,"motivo":"NFC-e nao autorizada","nfeProc":{"cStat":539,"xMotivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210207364617000135650000000210721000192600]"}}
+14/07/2021 17:53 - [JSON_RETORNO]
+14/07/2021 17:53 - {"chNFe":"","statusEnvio":"-100","statusConsulta":null,"statusDownload":"","cStat":"539","nProt":"","motivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210207364617000135650000000210721000192600]","nsNRec":null,"erros":null}
+14/07/2021 17:53 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:55 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:55 - [ENVIO_DADOS]
+14/07/2021 17:55 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21090</nNF>
+      <dhEmi>2021-07-14T17:55:11-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:55 - [ENVIO_RESPOSTA]
+14/07/2021 17:55 - {"status":-100,"motivo":"NFC-e nao autorizada","nfeProc":{"cStat":539,"xMotivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210207364617000135650000000210901746599526]"}}
+14/07/2021 17:55 - [JSON_RETORNO]
+14/07/2021 17:55 - {"chNFe":"","statusEnvio":"-100","statusConsulta":null,"statusDownload":"","cStat":"539","nProt":"","motivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210207364617000135650000000210901746599526]","nsNRec":null,"erros":null}
+14/07/2021 17:55 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 17:55 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:55 - [ENVIO_DADOS]
+14/07/2021 17:55 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>22000</nNF>
+      <dhEmi>2021-07-14T17:55:39-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:56 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 17:56 - [ENVIO_DADOS]
+14/07/2021 17:56 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21100</nNF>
+      <dhEmi>2021-07-14T17:56:39-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 17:56 - [ENVIO_RESPOSTA]
+14/07/2021 17:56 - {"status":100,"motivo":"NFC-e autorizada com sucesso","nfeProc":{"nProt":"143210000381011","digVal":"aplP15Pf/W5D4I7of11XX9Nx4QE=","cStat":100,"xMotivo":"Autorizado o uso da NF-e","chNFe":"43210707364617000135650000000211001977908857","serie":"0","numero":"21100","dhRecbto":"2021-07-14T17:56:40-03:00"},"xml":"<?xml version=\"1.0\" encoding=\"utf-8\"?><nfeProc versao=\"4.00\" xmlns=\"http://www.portalfiscal.inf.br/nfe\"><NFe><infNFe versao=\"4.00\" Id=\"NFe43210707364617000135650000000211001977908857\"><ide><cUF>43</cUF><cNF>97790885</cNF><natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp><mod>65</mod><serie>0</serie><nNF>21100</nNF><dhEmi>2021-07-14T17:56:39-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4305108</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>4.00|NS_API</verProc></ide><emit><CNPJ>07364617000135</CNPJ><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderEmit><xLgr>Rua Bento Osvaldo Trisch</xLgr><nro>777</nro><xCpl>CX POSTAL 91</xCpl><xBairro>Pendancino</xBairro><cMun>4303509</cMun><xMun>Caxias do Sul</xMun><UF>RS</UF><CEP>95046600</CEP><fone>005432200200</fone></enderEmit><IE>0170108708</IE><CRT>1</CRT></emit><dest><CPF>16313945093</CPF><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>Rua 1</xLgr><nro>0</nro><xBairro>Setor Sul</xBairro><cMun>5208707</cMun><xMun>Goi�nia</xMun><UF>GO</UF><CEP>74650000</CEP><cPais>1058</cPais><xPais>Brasil</xPais></enderDest><indIEDest>9</indIEDest></dest><det nItem=\"1\"><prod><cProd>123456789</cProd><cEAN>SEM GTIN</cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>22021000</NCM><CEST>0301100</CEST><CFOP>5101</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>3.00</vUnCom><vProd>3.00</vProd><cEANTrib>SEM GTIN</cEANTrib><uTrib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>3.00</vUnTrib><indTot>1</indTot><nItemPed>0</nItemPed></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>102</CSOSN></ICMSSN102></ICMS><PIS><PISAliq><CST>01</CST><vBC>3.00</vBC><pPIS>1.65</pPIS><vPIS>0.05</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>3.00</vBC><pCOFINS>7.00</pCOFINS><vCOFINS>0.21</vCOFINS></COFINSAliq></COFINS></imposto></det><total><ICMSTot><vBC>0</vBC><vICMS>0</vICMS><vICMSDeson>0.00</vICMSDeson><vFCP>0</vFCP><vBCST>0</vBCST><vST>0</vST><vFCPST>0</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>3.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.05</vPIS><vCOFINS>0.21</vCOFINS><vOutro>0.00</vOutro><vNF>3.00</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><detPag><tPag>01</tPag><vPag>5.00</vPag></detPag><vTroco>2.00</vTroco></pag><infAdic><infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl></infAdic></infNFe><infNFeSupl><qrCode>https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43210707364617000135650000000211001977908857|2|2|1|213ce1247424b0e1a27fdc9d62299000fe84771f</qrCode><urlChave>www.sefaz.rs.gov.br/nfce/consulta</urlChave></infNFeSupl><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#NFe43210707364617000135650000000211001977908857\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>aplP15Pf/W5D4I7of11XX9Nx4QE=</DigestValue></Reference></SignedInfo><SignatureValue>BWQ1zGa7Dq51Tyv7GocneN0ydCOz3saY77dNIjjqW4pyKoAefsNZZggunon1y3fyLjiWUx0uTaIWhiS6bdBFAdTjvHhOb4EdrsCY2+seMQ+uYi6CoPRzsZ8jrtT5bhYYtZmgdjRWr3dmTwUk3wet6iWhpwUHy5hccWg985ov9yWEiGx+0OzlajD52TZqniQNUDJHT/mU2Q+DFyVDUrgPenW4JuRcngEKHhgOykfDlvYHZ4/7Cd+bRuToU7wL5ZsJdJgtEDqodqKBUd+2mzHI4boVzBniahOw9KF+2Cau9b7m8gUkoUL5WLZnZQeLd5Ss7T3CItZ/Oi0QJA90fbNmTQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao=\"4.00\"><infProt Id=\"ID143210000381011\"><tpAmb>2</tpAmb><verAplic>RSnfce202103291658</verAplic><chNFe>43210707364617000135650000000211001977908857</chNFe><dhRecbto>2021-07-14T17:56:40-03:00</dhRecbto><nProt>143210000381011</nProt><digVal>aplP15Pf/W5D4I7of11XX9Nx4QE=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>"}
+14/07/2021 17:56 - [DOWNLOAD_DADOS]
+14/07/2021 17:56 - {"chNFe":"43210707364617000135650000000211001977908857","impressao":{"tipo":"PDF","ecologica":false,"itemLinhas":"1","itemDesconto":true,"larguraPapel":"80mm","modMiniImpressora":null},"tpDown":null,"tpAmb":"2","CNPJ":null}
+14/07/2021 17:56 - [DOWNLOAD_RESPOSTA]
+14/07/2021 17:56 - {"status":-2,"motivo":"Tipo de download inválido: null"}
+14/07/2021 17:56 - [JSON_RETORNO]
+14/07/2021 17:56 - {"chNFe":"43210707364617000135650000000211001977908857","statusEnvio":"100","statusConsulta":null,"statusDownload":"-2","cStat":"100","nProt":"143210000381011","motivo":"Tipo de download inválido: null","nsNRec":null,"erros":null}
+14/07/2021 17:56 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 18:02 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 18:02 - [ENVIO_DADOS]
+14/07/2021 18:02 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21100</nNF>
+      <dhEmi>2021-07-14T18:02:16-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 18:02 - [ENVIO_RESPOSTA]
+14/07/2021 18:02 - {"status":-100,"motivo":"NFC-e nao autorizada","nfeProc":{"cStat":539,"xMotivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210707364617000135650000000211001977908857]"}}
+14/07/2021 18:02 - [JSON_RETORNO]
+14/07/2021 18:02 - {"chNFe":"","statusEnvio":"-100","statusConsulta":null,"statusDownload":"","cStat":"539","nProt":"","motivo":"Rejeicao: Duplicidade de NF-e, com diferenca na Chave de Acesso [chNFe:43210707364617000135650000000211001977908857]","nsNRec":null,"erros":null}
+14/07/2021 18:02 - [EMISSAO_SINCRONA_FIM]
+14/07/2021 18:02 - [EMISSAO_SINCRONA_INICIO]
+14/07/2021 18:02 - [ENVIO_DADOS]
+14/07/2021 18:02 - <?xml version="1.0" encoding="utf-16"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>43</cUF>
+      <natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp>
+      <mod>65</mod>
+      <serie>0</serie>
+      <nNF>21101</nNF>
+      <dhEmi>2021-07-14T18:02:38-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>4</tpImp>
+      <tpEmis>1</tpEmis>
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>1</indFinal>
+      <indPres>1</indPres>
+      <procEmi>0</procEmi>
+      <verProc>4.00</verProc>
+    </ide>
+    <emit>
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch</xLgr>
+        <nro>777</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <CEP>95046600</CEP>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CPF>16313945093</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua 1</xLgr>
+        <nro>0</nro>
+        <xBairro>Setor Sul</xBairro>
+        <cMun>5208707</cMun>
+        <xMun>Goiânia</xMun>
+        <UF>GO</UF>
+        <CEP>74650000</CEP>
+        <cPais>1058</cPais>
+        <xPais>Brasil</xPais>
+      </enderDest>
+      <indIEDest>9</indIEDest>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>123456789</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+        <NCM>22021000</NCM>
+        <CEST>0301100</CEST>
+        <CFOP>5101</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>3.00</vUnCom>
+        <vProd>3.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>3.00</vUnTrib>
+        <indTot>1</indTot>
+        <nItemPed>0</nItemPed>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <orig>0</orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pPIS>1.65</pPIS>
+            <vPIS>0.05</vPIS>
+          </PISAliq>
+        </PIS>
+        <COFINS>
+          <COFINSAliq>
+            <CST>01</CST>
+            <vBC>3.00</vBC>
+            <pCOFINS>7.00</pCOFINS>
+            <vCOFINS>0.21</vCOFINS>
+          </COFINSAliq>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0</vBC>
+        <vICMS>0</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCPUFDest>0.00</vFCPUFDest>
+        <vICMSUFDest>0.00</vICMSUFDest>
+        <vICMSUFRemet>0.00</vICMSUFRemet>
+        <vFCP>0</vFCP>
+        <vBCST>0</vBCST>
+        <vST>0</vST>
+        <vFCPST>0</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>3.00</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.05</vPIS>
+        <vCOFINS>0.21</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>3.00</vNF>
+        <vTotTrib>0.00</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>9</modFrete>
+    </transp>
+    <pag>
+      <detPag>
+        <tPag>01</tPag>
+        <vPag>5.00</vPag>
+      </detPag>
+      <vTroco>2.00</vTroco>
+    </pag>
+    <infAdic>
+      <infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl>
+    </infAdic>
+  </infNFe>
+</NFe>
+14/07/2021 18:02 - [ENVIO_RESPOSTA]
+14/07/2021 18:02 - {"status":100,"motivo":"NFC-e autorizada com sucesso","nfeProc":{"nProt":"143210000381027","digVal":"bePAM0W66ZuSbZZFZC+QF5Hsi1g=","cStat":100,"xMotivo":"Autorizado o uso da NF-e","chNFe":"43210707364617000135650000000211011176039106","serie":"0","numero":"21101","dhRecbto":"2021-07-14T18:02:40-03:00"},"xml":"<?xml version=\"1.0\" encoding=\"utf-8\"?><nfeProc versao=\"4.00\" xmlns=\"http://www.portalfiscal.inf.br/nfe\"><NFe><infNFe versao=\"4.00\" Id=\"NFe43210707364617000135650000000211011176039106\"><ide><cUF>43</cUF><cNF>17603910</cNF><natOp>VENDA A PRAZO - SEM VALOR FISCAL</natOp><mod>65</mod><serie>0</serie><nNF>21101</nNF><dhEmi>2021-07-14T18:02:38-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4305108</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>6</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>4.00|NS_API</verProc></ide><emit><CNPJ>07364617000135</CNPJ><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderEmit><xLgr>Rua Bento Osvaldo Trisch</xLgr><nro>777</nro><xCpl>CX POSTAL 91</xCpl><xBairro>Pendancino</xBairro><cMun>4303509</cMun><xMun>Caxias do Sul</xMun><UF>RS</UF><CEP>95046600</CEP><fone>005432200200</fone></enderEmit><IE>0170108708</IE><CRT>1</CRT></emit><dest><CPF>16313945093</CPF><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>Rua 1</xLgr><nro>0</nro><xBairro>Setor Sul</xBairro><cMun>5208707</cMun><xMun>Goi�nia</xMun><UF>GO</UF><CEP>74650000</CEP><cPais>1058</cPais><xPais>Brasil</xPais></enderDest><indIEDest>9</indIEDest></dest><det nItem=\"1\"><prod><cProd>123456789</cProd><cEAN>SEM GTIN</cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>22021000</NCM><CEST>0301100</CEST><CFOP>5101</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>3.00</vUnCom><vProd>3.00</vProd><cEANTrib>SEM GTIN</cEANTrib><uTrib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>3.00</vUnTrib><indTot>1</indTot><nItemPed>0</nItemPed></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>102</CSOSN></ICMSSN102></ICMS><PIS><PISAliq><CST>01</CST><vBC>3.00</vBC><pPIS>1.65</pPIS><vPIS>0.05</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>3.00</vBC><pCOFINS>7.00</pCOFINS><vCOFINS>0.21</vCOFINS></COFINSAliq></COFINS></imposto></det><total><ICMSTot><vBC>0</vBC><vICMS>0</vICMS><vICMSDeson>0.00</vICMSDeson><vFCP>0</vFCP><vBCST>0</vBCST><vST>0</vST><vFCPST>0</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>3.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.05</vPIS><vCOFINS>0.21</vCOFINS><vOutro>0.00</vOutro><vNF>3.00</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><detPag><tPag>01</tPag><vPag>5.00</vPag></detPag><vTroco>2.00</vTroco></pag><infAdic><infCpl>TESTE DE EMISSAO EM CONTINGENCIA</infCpl></infAdic></infNFe><infNFeSupl><qrCode>https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43210707364617000135650000000211011176039106|2|2|1|253fd354c6aa5fbe4cdcbcc8a55ce5fa43907cc6</qrCode><urlChave>www.sefaz.rs.gov.br/nfce/consulta</urlChave></infNFeSupl><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#NFe43210707364617000135650000000211011176039106\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>bePAM0W66ZuSbZZFZC+QF5Hsi1g=</DigestValue></Reference></SignedInfo><SignatureValue>aytzwIVj04MeB8CwEsnS2syIE31RqxHUmhh/xSKn8ORrhAMRgJFGVSl5z635chNEDsYzsCWbkD9ELBF/4Etai8eVyas/wgxlNa1Xeg2LHPXW/bt1JXhHBZeES/5XNHoaRH2HhEfcQjkeNT1jMGoDhlpwnCpjhYbd0uHYGlzs2P91d0sWV8wiSahYZRCAc7zH4unVvr9pOUYUTBzJ0WhiV7IrSNLqkoaOCNjrjXkwRK3a6nf1o5dcjOz4xpVfPxJEJJZLAjRo8uUFggzCP5uHPEZmoe1d0Ge8RRvASkpKxfJNhN2xtdT1sJhOdDlX8CVPJ3PXHAVay1q7jg61rzwSCQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao=\"4.00\"><infProt Id=\"ID143210000381027\"><tpAmb>2</tpAmb><verAplic>RSnfce202103291658</verAplic><chNFe>43210707364617000135650000000211011176039106</chNFe><dhRecbto>2021-07-14T18:02:40-03:00</dhRecbto><nProt>143210000381027</nProt><digVal>bePAM0W66ZuSbZZFZC+QF5Hsi1g=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>"}
+14/07/2021 18:02 - [DOWNLOAD_DADOS]
+14/07/2021 18:02 - {"chNFe":"43210707364617000135650000000211011176039106","impressao":{"tipo":"PDF","ecologica":false,"itemLinhas":"1","itemDesconto":true,"larguraPapel":"80mm","modMiniImpressora":null},"tpDown":"X","tpAmb":"2","CNPJ":"07364617000135"}
+14/07/2021 18:02 - [DOWNLOAD_RESPOSTA]
+14/07/2021 18:02 - {"status":-999,"motivo":"Erro interno ao processar a requisicao","erro":{"cStat":999,"xMotivo":"Documento nao Localizado em nosso banco de dados ou não autorizado"}}
+14/07/2021 18:02 - [JSON_RETORNO]
+14/07/2021 18:02 - {"chNFe":"43210707364617000135650000000211011176039106","statusEnvio":"100","statusConsulta":null,"statusDownload":"-999","cStat":"100","nProt":"143210000381027","motivo":"Erro interno ao processar a requisicao","nsNRec":null,"erros":null}
+14/07/2021 18:02 - [EMISSAO_SINCRONA_FIM]
