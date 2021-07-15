@@ -2,8 +2,10 @@
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography.Xml;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Serialization;
+using NSNFCeXML.src.Classes.NFCe;
 
 namespace NSNFCeXML.src.Genericos
 {
@@ -194,5 +196,72 @@ namespace NSNFCeXML.src.Genericos
                 return stringwriter.ToString();
             }
         }
+
+        private static int GerarDigitoVerificador(string chave)
+        {
+            int soma = 0;
+            int restoDivisao = -1;
+            int digitoVerificador = -1;
+            int pesoMultiplicacao = 2;
+
+            for (int i = chave.Length - 1; i != -1; i--)
+            {
+                int ch = Convert.ToInt32(chave[i].ToString());
+                soma += ch * pesoMultiplicacao;
+
+                if (pesoMultiplicacao < 9)
+                    pesoMultiplicacao += 1;
+                else
+                    pesoMultiplicacao = 2;
+            }
+            restoDivisao = soma % 11;
+            if (restoDivisao == 0 || restoDivisao == 1)
+                digitoVerificador = 0;
+            else
+                digitoVerificador = 11 - restoDivisao;
+
+            return digitoVerificador;
+        }
+
+        public static string removeINT(string str)
+        {
+            var apenasDigitos = new Regex(@"[^\d]");
+            return apenasDigitos.Replace(str, "");
+        }
+
+
+        public static int gerarCodigoCDF()
+        {
+            int min = 10000000;
+            int max = 99999999;
+            Random random = new Random();
+            return random.Next(min, max);
+        }
+
+        public static string GerarChaveNFCe(TNFCe NFCe, string tpEvento = "", string nSeqEvento = "")
+        {
+            string projeto = removeINT(NFCe.infNFe.ide.mod.ToString());
+            string cUF = removeINT(NFCe.infNFe.ide.cUF.ToString());
+            string dhEmi = NFCe.infNFe.ide.dhEmi.ToString();
+            string serie = NFCe.infNFe.ide.serie.ToString();
+            string nDF = NFCe.infNFe.ide.nNF.ToString();
+            string tpEmis = removeINT(NFCe.infNFe.ide.tpEmis.ToString());
+            string cnpjEmitente = NFCe.infNFe.emit.Item.ToString();
+
+
+            for (int i = serie.Length; i < 3; i++)
+                serie = "0" + serie;
+
+            for (int i = nDF.Length; i < 9; i++)
+                serie = "0" + serie;
+
+            string[] auxAAMM = dhEmi.Split('T');
+            DateTime dateTime = DateTime.Parse(auxAAMM[0]);
+            string aamm = dateTime.ToString("yyMM");
+            string chave43 = cUF + aamm + cnpjEmitente + projeto + serie + nDF + tpEmis + gerarCodigoCDF();
+            string chave = tpEvento + chave43 + GerarDigitoVerificador(chave43) + nSeqEvento;
+            return chave;
+        }
+
     }
 }

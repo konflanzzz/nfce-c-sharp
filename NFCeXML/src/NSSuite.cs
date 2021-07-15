@@ -265,7 +265,6 @@ namespace NSSuite
 
             return resposta;
         }
-
         public static string consultarStatusProcessamento(string modelo, ConsStatusProcessamentoReq ConsStatusProcessamentoReq)
         {
             string urlConsulta;
@@ -638,7 +637,6 @@ namespace NSSuite
 
             return resposta;
         }
-
         public static string previaDocumento(string modelo, string tpConteudo, string conteudo)
         {
             string urlPrevia;
@@ -681,7 +679,6 @@ namespace NSSuite
 
             return previaResp.pdf;
         }
-
         public static string cancelarDocumentoESalvar(string modelo, CancelarReq CancelarReq, DownloadEventoReq DownloadEventoReq, string caminho, string chave, string cnpjEmitente, bool exibeNaTela = false, bool a3 = false)
         {
             string resposta = cancelarDocumento(modelo, CancelarReq, cnpjEmitente, a3);

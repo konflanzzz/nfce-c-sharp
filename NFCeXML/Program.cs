@@ -8,6 +8,8 @@ using NSNFCeXML.src.Genericos;
 using LayoutXML;
 using ContingenciaNFCe;
 using NSSuite;
+using System.Timers;
+using Newtonsoft.Json;
 
 namespace EmissaoNFCeXML 
 {
@@ -16,20 +18,14 @@ namespace EmissaoNFCeXML
         static void Main(string[] args)
         {
             TNFCe NFCeXML = Layout.GerarLayoutNFCeXML();
-            NFCeXML.infNFe.ide.nNF = "21101";
-
-            bool cont = false;
-
-            if (cont == true)
-            {
-                NFCeXML = Contingencia.aplicarContingencia(NFCeXML);
-            }
+            NFCeXML.infNFe.ide.nNF = "21102";
 
             string conteudoXML = Genericos.NFCeToXML(NFCeXML);
-            string retorno = NSSuite.NSSuite.emitirNFCeSincrono(conteudoXML, "xml", "07364617000135", "2", @".\NFCe\",false,false);
 
+            string retorno = NSSuite.NSSuite.emitirNFCeSincrono(conteudoXML, "xml", "07364617000135", "2", @".\NFCe\", false, false);
+
+            //Contingencia.timerContingencia(JsonConvert.DeserializeObject<EmitirSincronoRetNFCe>(retorno));
             Console.WriteLine(retorno);
-
         }
     }
 }
