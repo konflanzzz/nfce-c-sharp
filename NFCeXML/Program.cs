@@ -10,22 +10,15 @@ using ContingenciaNFCe;
 using NSSuite;
 using System.Timers;
 using Newtonsoft.Json;
+using EmissaoNFCeXML;
 
-namespace EmissaoNFCeXML 
+namespace Program 
 {
     class Program
     {
         static void Main(string[] args)
         {
-            TNFCe NFCeXML = Layout.GerarLayoutNFCeXML();
-            NFCeXML.infNFe.ide.nNF = "21102";
-
-            string conteudoXML = Genericos.NFCeToXML(NFCeXML);
-
-            string retorno = NSSuite.NSSuite.emitirNFCeSincrono(conteudoXML, "xml", "07364617000135", "2", @".\NFCe\", false, false);
-
-            //Contingencia.timerContingencia(JsonConvert.DeserializeObject<EmitirSincronoRetNFCe>(retorno));
-            Console.WriteLine(retorno);
+            string retorno = EmissaoNFCeXML.EmissaoNFCeXML.emitirNFCe();
         }
     }
 }

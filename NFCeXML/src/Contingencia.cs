@@ -16,17 +16,16 @@ namespace ContingenciaNFCe
     {
 
         // classe para controlar a contingencia
-        public static string controleContingencia(TNFCe NFCeXML, EmitirSincronoRetNFCe retorno) //paralelo com emissaoSincrona
+        public static void controleContingencia(TNFCe NFCeXML, string statusEnvio) //paralelo com emissaoSincrona
         {
-            string retornoContingencia = "";
 
             // verifica se em 3000ms a NFCe foi autorizada ou não
-            bool autorizadoNormal = timerEmissaoNormal(retorno);
+            bool autorizadoNormal = timerEmissaoNormal(statusEnvio);
 
             if (autorizadoNormal == false)
             {
                 //caso nao tenha sido autorizada em 3000ms sera tratada como possivel contingencia, mas chance de autorizar normal
-                autorizadoNormal = timerContingencia(retorno); 
+                autorizadoNormal = timerContingencia(statusEnvio); 
             }
 
             if (autorizadoNormal == false)
@@ -34,9 +33,6 @@ namespace ContingenciaNFCe
                 //caso nao tenha sido autorizada em 12000ms é aplicada a contingencia
                 aplicarContingencia(NFCeXML);
             }
-
-            //retornar o que?
-            return retornoContingencia;
         }
 
         //alterar o xml inserindo tags de contingencia
@@ -96,13 +92,13 @@ namespace ContingenciaNFCe
             }
         }
 
-        public static bool timerContingencia(EmitirSincronoRetNFCe retorno)
+        public static bool timerContingencia(string statusEnvio)
         {
             int i = 1;
             bool autorizado = false;
 
             while ( i < 9 ) {
-                if (retorno.statusEnvio == "100")
+                if (statusEnvio == "100")
                 {
                     autorizado = true;
                     break;
@@ -123,14 +119,14 @@ namespace ContingenciaNFCe
             return autorizado;
         }
 
-        public static bool timerEmissaoNormal(EmitirSincronoRetNFCe retorno)
+        public static bool timerEmissaoNormal(string statusEnvio)
         {
             int i = 1;
             bool autorizado = false;
 
             while (i < 3)
             {
-                if (retorno.statusEnvio == "100")
+                if (statusEnvio == "100")
                 {
                     autorizado = true;
                     break;

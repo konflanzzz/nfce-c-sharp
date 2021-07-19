@@ -85,6 +85,7 @@
     <Compile Include="src\Compartilhados\Genericos.cs" />
     <Compile Include="src\Compartilhados\Parametros.cs" />
     <Compile Include="src\Contingencia.cs" />
+    <Compile Include="src\EmissaoNFCeXML.cs" />
     <Compile Include="src\LayoutXML.cs" />
     <Compile Include="src\NSSuite.cs" />
     <Compile Include="src\Requisições\NFCe\CancelarReqNFCe.cs" />
