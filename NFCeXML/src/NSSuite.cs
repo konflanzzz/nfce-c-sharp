@@ -13,7 +13,7 @@ namespace NSSuite
 {
     public class NSSuite
     {
-        private static string token = "ADQWREQW561D32AWS1D6";
+        private static string token = "";
         private static Endpoints Endpoints = new Endpoints();
         private static Parametros Parametros = new Parametros();
 
